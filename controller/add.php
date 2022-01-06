@@ -1,5 +1,5 @@
-<?php include('controller/config.php'); 
-include('template/header.php')
+<?php include('../config/config.php'); 
+include('../template/header.php')
 ?>
     <div class="container">
         <div class="table-wrapper">
@@ -8,9 +8,9 @@ include('template/header.php')
                        <a href="http://localhost/CSE485_K61_KTGK_1951061136" style="color:#fff"><i class="fas fa-arrow-left"></i></a> <h2>Thêm</h2>
                 </div>
             </div>
-        <form method="post" action="src/add.php">
+        <form method="post" action="../src/add.php">
             <div class="mb-3">
-            <label for="rName" class="form-label">Tên Môn</label>
+            <label for="Name" class="form-label">Tên Môn</label>
             <input type="text" class="form-control" id="ten" name='ten'>
             </div>
             <div class="mb-3">
@@ -38,5 +38,5 @@ include('template/header.php')
     </div>
 </div>
 <?php 
-include('template/footer.php')
+include('../template/footer.php')
 ?>

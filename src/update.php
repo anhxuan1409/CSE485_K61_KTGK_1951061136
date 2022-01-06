@@ -1,5 +1,5 @@
 <?php
-include ('../controller/config.php');
+include ('../config/config.php');
 include('../template/header.php');
 
 if(count($_POST)>0) {

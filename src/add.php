@@ -1,5 +1,5 @@
 <?php
-include ('../controller/config.php');
+include ('../config/config.php');
 if(isset($_POST['save']))
 {	 
 	 $ten = $_POST['ten'];

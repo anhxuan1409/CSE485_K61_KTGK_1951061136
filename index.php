@@ -1,4 +1,4 @@
-<?php include('controller/config.php'); 
+<?php include('config/config.php'); 
 include('template/header.php')
 ?>
     <div class="container">
@@ -12,7 +12,7 @@ include('template/header.php')
                 </div>
             </div>
             <table class="table table-striped table-hover">
-            <div><a href="add.php" class="btn btn-danger ml-5"><i class="fas fa-plus"></i></a></div>	
+            <div><a href="controller/add.php" class="btn btn-danger ml-5"><i class="fas fa-plus"></i></a></div>	
                 <thead>
                     <tr>
 						<th>No.</th>
