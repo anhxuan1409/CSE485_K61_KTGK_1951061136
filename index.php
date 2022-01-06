@@ -12,7 +12,7 @@ include('template/header.php')
                 </div>
             </div>
             <table class="table table-striped table-hover">
-            <div><a href="add.php" class="btn btn-danger ml-5">Thêm mới</a></div>	
+            <div><a href="add.php" class="btn btn-danger ml-5"><i class="fas fa-plus"></i></a></div>	
                 <thead>
                     <tr>
 						<th>No.</th>
@@ -39,8 +39,8 @@ include('template/header.php')
 					<td><?php echo $row["sotiet_bt"]; ?></td>					
 					<td><?php echo $row["sotiet_thtn"]; ?></td>
 					<td><?php echo $row["sogio_tuhoc"]; ?></td>
-					<td><a href="src/update.php?mamh=<?php echo $row["mamh"]; ?>">Sửa</a></td>
-					<td><a href="src/delete.php?mamh=<?php echo $row["mamh"]; ?>">Xóa</a></td>
+					<td><a href="src/update.php?mamh=<?php echo $row["mamh"]; ?>"><i class="far fa-edit"></i></a></td>
+					<td><a href="src/delete.php?mamh=<?php echo $row["mamh"]; ?>"><i class="far fa-trash-alt"></i></a></td>
 
 				</tr>
 				<?php
